@@ -1,0 +1,100 @@
+body {
+    background-color: #fafafa;
+    }
+    
+    .thin {
+      font-weight: 300;
+    }
+    
+    .cover-overlay {
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+      }
+    
+    .title {
+      font-size: 4.5rem;
+      line-height: 1.8rem;
+      margin: 0;
+    }
+    
+    .cover-text {
+      position: absolute;
+      top: 25%;
+    }
+    
+    .cover-quote {
+      margin-top: 70px;
+      margin-bottom: 10px;
+      font-size: 1.6rem;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1.8rem;
+    }
+    
+    .cover-quote-author {
+      margin-top: 0;
+      font-size: 1.5rem;
+      padding-right: 60px;
+    }
+    
+    .lr-border { border-left: 2px solid red; }
+    .rg-border { border-right: 2px solid green;}
+    .lb-border { border-left: 2px solid blue;}
+    
+    .testimonial-text {
+      font-size: 1.4rem;
+    }
+    
+    .author {
+      font-size: 1.1rem;
+      font-weight: 300;
+      margin: 0 20px 0 20px;
+    }
+    
+    .social a {
+      color: black;
+      transition: all 0.7s ease 0s;
+    }
+    
+    .linkedin:hover {
+        color: #006db3;
+    }
+    
+    .github:hover {
+      color: #6e5494;
+    }
+    
+    .email:hover {
+      color: #c71610;
+    }
+    
+    .resume:hover {
+      color: #778899;
+    }
+    
+    .table-of-contents {
+      margin-top: 10vh;
+      margin-left: -20px;
+      position: fixed;
+      top: 0;
+    }
+    
+    .table-of-contents li {
+      margin-bottom: 5px;
+    }
+    
+    @media (max-width: 800px) {
+      .card-resizeimg {
+        height: 200px;
+        width: auto;
+      }
+      .card-content {
+        min-height: 250px;
+      }
+    }
+    
+    @media (min-width: 801px) {
+      .card-resizeimg {
+        width: auto;
+        height: 250px;
+      }
+    }
