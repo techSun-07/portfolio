@@ -98,3 +98,59 @@ body {
         height: 250px;
       }
     }
+
+    /* contact form */
+
+    form {
+      max-width: 1000px; /* Adjust the width as needed */
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      font-family: Arial, sans-serif;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    textarea {
+      resize: vertical;
+    }
+    
+    input[type="submit"] {
+      background-color: #e74c3c;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #c0392b;
+    }
+    
+    .center {
+      text-align: center;
+    }
+
+    #message {
+      height: 150px; /* Adjust the height as needed */
+    }
+    
